@@ -33,7 +33,7 @@ Plug 'rajasegar/vim-astro', {'branch': 'main'}
 
 ## Options
 
-To disable indentation within `class {` and `style {` tags, set one of these
+To disable indentation within `---` and `<style>` tags, set one of these
 variables in your `vimrc`:
 
 ```vim
@@ -43,16 +43,16 @@ let g:astro_indent_style = 0
 
 ## Integrations
 
-- [ALE][ale]: vim-astro should work out of the box with `eslint` and a few
+- [ALE](https://github.com/dense-analysis/ale): vim-astro should work out of the box with `eslint` and a few
   other linters/fixers. PRs welcome if the one you want is missing.
-- [matchit.vim][matchit]: vim-astro should work out of the box and allow moving
+- [matchit.vim](https://www.vim.org/scripts/script.php?script_id=39): vim-astro should work out of the box and allow moving
   between HTML tags as well as flow control like `#if/:else//if`.
 
 
 ## Tests
 
 Indentation tests are provided and any contributions would be much appreciated.
-They can be run with `make test` which will clone [vader.vim][vader] into the
+They can be run with `make test` which will clone [vader.vim](https://github.com/junegunn/vader.vim) into the
 current working directory and run the test suite.
 
 
