@@ -98,15 +98,15 @@ Do (indent the block):
 
 Expect astro (indented style tag):
   <style>
-    .foo {
-      bar: 1;
-    }
+  .foo {
+    bar: 1;
+  }
   </style>
 
 
 Given astro (outdented script tag):
   ---
-  import { foo } from "./stores.js"
+      import { foo } from "./stores.js"
   ---
 
 Do (indent the block):
@@ -114,7 +114,7 @@ Do (indent the block):
 
 Expect astro (indented script tag):
   ---
-    import { foo } from "./stores.js"
+  import { foo } from "./stores.js"
   ---
 
 
